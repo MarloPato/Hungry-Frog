@@ -12812,7 +12812,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   multiplySpeedBy: 1.5
-  timeBeforeReset: 10
+  timeBeforeReset: 8
   audioSource: {fileID: 872170918}
   audioClip: {fileID: 8300000, guid: 2d047cb5b8b6040afbab7e16b20625ab, type: 3}
   spriteRenderer: {fileID: 872170921}
