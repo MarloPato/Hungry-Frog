@@ -7,6 +7,7 @@ public class ElevatorMovement : MonoBehaviour
     [SerializeField] private float speed = 2f;
     [SerializeField] private GameObject nextTarget;
     [SerializeField] private List<GameObject> targetPoints;
+
     private int currentTargetPointIndex;
 
     void Start()
@@ -45,5 +46,15 @@ public class ElevatorMovement : MonoBehaviour
             }
         
         nextTarget = targetPoints[currentTargetPointIndex];
+    }
+
+    private void OnDrawGizmos()
+    {
+        foreach (var item in targetPoints)
+        {
+            Gizmos.color = Color.blue;
+            Gizmos.DrawSphere(item.transform.position, 0.2f);
+        }
+
     }
 }
