@@ -14,17 +14,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Children:
   - {fileID: 3}
+Isak-dev
   - {fileID: 15}
+
   m_Position:
     serializedVersion: 2
     x: 0
     y: 30
+Isak-dev
     width: 1920
     height: 947
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
   controlID: 34
+
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -33,6 +37,7 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
+Isak-dev
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3f683d99f24875748a6656966ca9cea0, type: 3}
   m_Name: 
@@ -49,10 +54,12 @@ MonoBehaviour:
     y: 73
     width: 500
     height: 926
+
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
+Isak-dev
   m_PreviewResizer:
     m_CachedPref: 183
     m_ControlHash: 1964396721
@@ -60,6 +67,7 @@ MonoBehaviour:
   m_Palette: {fileID: 2629581976479605570, guid: 53026ed109508416fa40a08520ef5765, type: 3}
   m_DrawGridGizmo: 1
   m_DrawGizmos: 0
+
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -74,17 +82,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Children:
   - {fileID: 4}
+Isak-dev
   - {fileID: 11}
+
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
+Isak-dev
     width: 1419
     height: 947
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
   controlID: 29
+
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -104,12 +116,14 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+Isak-dev
     width: 1419
     height: 662
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
   controlID: 30
+
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -127,8 +141,10 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+Isak-dev
     width: 461
     height: 662
+
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 6}
@@ -158,18 +174,22 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 73
+Isak-dev
     width: 460
     height: 641
+
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
   m_SceneHierarchy:
     m_TreeViewState:
+Isak-dev
       scrollPos: {x: 0, y: 68}
       m_SelectedIDs: 24ebffff
       m_LastClickedID: -5340
       m_ExpandedIDs: 2aebfffff6efffff54f9ffff60f9ffffb6f9ffff9a640000e8640000746500009e650000
+
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: WorkingFan
@@ -208,19 +228,23 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
+Isak-dev
     x: 461
     y: 0
     width: 958
     height: 662
+
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 8}
   m_Panes:
   - {fileID: 8}
+Isak-dev
   - {fileID: 9}
   - {fileID: 10}
   m_Selected: 0
   m_LastSelected: 1
+
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -241,10 +265,12 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+Isak-dev
     x: 461
     y: 73
     width: 956
     height: 641
+
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -254,8 +280,8 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: -101, y: -26}
-      snapOffsetDelta: {x: 0, y: 0}
+      snapOffset: {x: 0, y: 0}
+      snapOffsetDelta: {x: -101, y: -26}
       snapCorner: 3
       id: Tool Settings
       index: 0
@@ -298,7 +324,7 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 0
-      snapOffset: {x: 0, y: 0}
+      snapOffset: {x: 0, y: 25}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: Scene View/Open Tile Palette
@@ -452,7 +478,7 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 0
-      snapOffset: {x: 0, y: 25}
+      snapOffset: {x: 0, y: 0}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: Scene View/Particles
@@ -468,9 +494,11 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
+Isak-dev
     m_Target: {x: 16.582071, y: 15.54607, z: -0.055694167}
     speed: 2
     m_Value: {x: 16.302835, y: 15.435369, z: -0.053897817}
+
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -521,9 +549,11 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
+Isak-dev
     m_Target: 4.171493
     speed: 2
     m_Value: 3.9918592
+
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -556,6 +586,7 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
+Isak-dev
   m_EditorHideFlags: 1
   m_Script: {fileID: 12015, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
@@ -729,14 +760,16 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
+
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ProjectBrowser
+  m_Name: ConsoleWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
     x: 0
+Isak-dev
     y: 662
     width: 1419
     height: 285
@@ -750,6 +783,7 @@ MonoBehaviour:
   m_Selected: 0
   m_LastSelected: 2
 --- !u!114 &12
+
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -770,9 +804,11 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
+Isak-dev
     y: 735
     width: 1418
     height: 264
+
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -790,6 +826,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
+Isak-dev
     - Assets/Prefabs
     m_Globs: []
     m_OriginalText: 
@@ -806,6 +843,7 @@ MonoBehaviour:
     m_SelectedIDs: 8a680000
     m_LastClickedID: 26762
     m_ExpandedIDs: 0000000026680000286800002a6800002c6800004068000000ca9a3bffffff7f
+
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -821,7 +859,9 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
+Isak-dev
       m_ClientGUIView: {fileID: 11}
+
     m_SearchString: 
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
@@ -830,10 +870,12 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_AssetTreeState:
-    scrollPos: {x: 0, y: 0}
+    scrollPos: {x: 0, y: 172}
     m_SelectedIDs: 
     m_LastClickedID: 0
+Isak-dev
     m_ExpandedIDs: 0000000026680000286800002a6800002c680000
+
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -849,7 +891,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 0}
+      m_ClientGUIView: {fileID: 9}
     m_SearchString: 
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
@@ -858,10 +900,12 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
+Isak-dev
     m_SelectedInstanceIDs: 24ebffff
     m_LastClickedInstanceID: -5340
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000667a0000fe5f0000cc630000ec790000586b0000047200009a620000de290000
+
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -877,7 +921,9 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
+Isak-dev
       m_ClientGUIView: {fileID: 11}
+
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -889,7 +935,9 @@ MonoBehaviour:
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 207
+Isak-dev
 --- !u!114 &13
+
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -910,13 +958,16 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
+Isak-dev
     y: 508.5
     width: 781
     height: 271.5
+
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
+Isak-dev
 --- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -949,6 +1000,7 @@ MonoBehaviour:
     m_IsLocked: 0
   m_LastSelectedObjectID: 24812
 --- !u!114 &15
+
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -958,11 +1010,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
+Isak-dev
   m_Name: GridPaintPaletteWindow
+
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
+Isak-dev
     x: 1419
     y: 0
     width: 501
@@ -977,6 +1032,7 @@ MonoBehaviour:
   m_Selected: 2
   m_LastSelected: 0
 --- !u!114 &16
+
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -996,10 +1052,12 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+ Isak-dev
     x: 1419
     y: 73
     width: 500
     height: 926
+
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -1017,6 +1075,7 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_PreviewWindow: {fileID: 0}
+Isak-dev
 --- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1045,3 +1104,4 @@ MonoBehaviour:
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
+

@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class EnemyMovement : MonoBehaviour
@@ -65,7 +66,17 @@ public class EnemyMovement : MonoBehaviour
         {
             ChangeDirection();
         }
+        if (collision.gameObject.CompareTag("Elevator") == true)
+        {
+            ChangeDirection();
+        }
+        if (collision.gameObject.CompareTag("Wall") == true)
+        {
+            ChangeDirection();
+        }
     }
+
+   
 
     private void ChangeDirection()
     {

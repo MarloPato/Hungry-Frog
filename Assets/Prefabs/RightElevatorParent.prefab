@@ -152,7 +152,7 @@ GameObject:
   - component: {fileID: 6130228054931764114}
   m_Layer: 0
   m_Name: RightElevatorParent
-  m_TagString: Untagged
+  m_TagString: Elevator
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

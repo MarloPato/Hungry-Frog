@@ -9707,7 +9707,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 434316244}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.51, y: 9.19, z: 0}
+  m_LocalPosition: {x: 4.23, y: 16.25, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -11871,6 +11871,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: UpstairsElevator
       objectReference: {fileID: 0}
+    - target: {fileID: 6130228053827909594, guid: 98bb4ce6e85a242dc8e4a743b846e992, type: 3}
+      propertyPath: m_TagString
+      value: Elevator
+      objectReference: {fileID: 0}
     - target: {fileID: 6130228054353995893, guid: 98bb4ce6e85a242dc8e4a743b846e992, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.26
@@ -12812,7 +12816,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   multiplySpeedBy: 1.5
-  timeBeforeReset: 10
+  timeBeforeReset: 8
   audioSource: {fileID: 872170918}
   audioClip: {fileID: 8300000, guid: 2d047cb5b8b6040afbab7e16b20625ab, type: 3}
   spriteRenderer: {fileID: 872170921}
