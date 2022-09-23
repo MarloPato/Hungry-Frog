@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class PlayerCheckpoint : MonoBehaviour
 {
+    [SerializeField] private AudioSource audioSource;
+    [SerializeField] private AudioClip pickUpClip;
+    
     private Animator animator;
 
     private void Start()
@@ -18,7 +21,7 @@ public class PlayerCheckpoint : MonoBehaviour
         {
             collision.GetComponent<PlayerState>().ChangeRespawnPosition(gameObject);
             animator.SetTrigger("Captured");
-
+            audioSource.PlayOneShot(pickUpClip);
         }
     }
 }
