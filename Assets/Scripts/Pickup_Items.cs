@@ -40,6 +40,12 @@ public class Pickup_Items : MonoBehaviour
                 canPickupCoin = false;
                 audioSource.pitch = Random.Range(0.9f, 1.1f);
                 audioSource.PlayOneShot(pickUpClip);
+                if (collision.GetComponent<PlayerState>().healthPoints < 2)
+                {
+
+
+                    collision.GetComponent<PlayerState>().healthPoints += 1;
+                }
             }
         }
     }
