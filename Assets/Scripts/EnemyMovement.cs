@@ -62,6 +62,9 @@ public class EnemyMovement : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
+
+        
+
         if (collision.gameObject.CompareTag("Player") == true)
         {
             ChangeDirection();
@@ -71,6 +74,10 @@ public class EnemyMovement : MonoBehaviour
             ChangeDirection();
         }
         if (collision.gameObject.CompareTag("Wall") == true)
+        {
+            ChangeDirection();
+        }
+        if (collision.gameObject.CompareTag("Enemy") == true)
         {
             ChangeDirection();
         }
