@@ -14,7 +14,7 @@ public class PlayerMovement : MonoBehaviour
     private bool isFacingLeft = false;
     private Vector3 velocity;
     public float smoothTime = 0.2f;
-    private float moveDirection = 0f;
+    public float moveDirection = 0f;
     private bool isJumpPressed = false;
     private bool doubleJump = false;
     private Animator animator;
@@ -27,6 +27,7 @@ public class PlayerMovement : MonoBehaviour
         rigidBody2D = gameObject.GetComponent<Rigidbody2D>();
         spriteRenderer = gameObject.GetComponent<SpriteRenderer>();
         animator = gameObject.GetComponent<Animator>();
+        
     }
 
     void Update()
@@ -120,4 +121,5 @@ public class PlayerMovement : MonoBehaviour
     {
         movementSpeed *= multiplyBy;
     }
+
 }

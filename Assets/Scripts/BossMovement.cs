@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 
-public class EnemyMovement : MonoBehaviour
+public class BossMovement : MonoBehaviour
 {
 
     public float speed = 5f;
-    private float movementDirection = 1f;
+    [SerializeField] private float movementDirection = 5f;
     bool isGrounded;
     public GameObject groundCheck;
     Rigidbody2D rigidBody2D;
@@ -24,6 +24,7 @@ public class EnemyMovement : MonoBehaviour
     {
         animator.SetBool("isAlive", isAlive);
         animator.SetBool("isGrounded", isGrounded);
+        
     }
 
     void FixedUpdate()
@@ -76,7 +77,7 @@ public class EnemyMovement : MonoBehaviour
         }
     }
 
-   
+
 
     private void ChangeDirection()
     {
