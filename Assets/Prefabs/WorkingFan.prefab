@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 895961489108234598}
   - component: {fileID: 895961489108234599}
   - component: {fileID: 895961489108234596}
+  - component: {fileID: 812087258}
   m_Layer: 0
   m_Name: WorkingFan
   m_TagString: Untagged
@@ -106,6 +107,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &812087258
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 895961489108234597}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 906f0bf3f69630e41b8acdef35d6be9e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  airPushing: {fileID: 895961489895758535}
 --- !u!1 &895961489895758535
 GameObject:
   m_ObjectHideFlags: 0
