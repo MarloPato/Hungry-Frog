@@ -10,5 +10,10 @@ public class EnemyDestroy : MonoBehaviour
         {
             Destroy(collision.gameObject.transform.parent.gameObject);
         }
+
+        if (collision.CompareTag("Boss") == true)
+        {
+            Destroy(collision.gameObject.transform.parent.gameObject);
+        }
     }
 }

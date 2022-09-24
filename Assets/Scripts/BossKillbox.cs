@@ -17,6 +17,7 @@ public class BossKillbox : MonoBehaviour
         if (gameObject.transform.parent.GetComponent<BossState>().bossHealth <= 0)
         {
             gameObject.GetComponentInParent<BossMovement>().KillMe();
+            
         }
     }
 
