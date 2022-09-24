@@ -120,6 +120,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   airPushing: {fileID: 895961489895758535}
+  Active: 1
+  TimerActivated: 1
+  duration: 5
+  TimerBased: 1
 --- !u!1 &895961489895758535
 GameObject:
   m_ObjectHideFlags: 0
@@ -210,7 +214,7 @@ AreaEffector2D:
     m_Bits: 4294967295
   m_UseGlobalAngle: 0
   m_ForceAngle: 90
-  m_ForceMagnitude: 20
+  m_ForceMagnitude: 30.05
   m_ForceVariation: 0
   m_ForceTarget: 0
   m_Drag: 0
