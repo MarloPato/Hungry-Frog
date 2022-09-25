@@ -214,7 +214,7 @@ AreaEffector2D:
     m_Bits: 4294967295
   m_UseGlobalAngle: 0
   m_ForceAngle: 90
-  m_ForceMagnitude: 30.05
+  m_ForceMagnitude: 55.11
   m_ForceVariation: 0
   m_ForceTarget: 0
   m_Drag: 0
@@ -335,8 +335,8 @@ ParticleSystem:
     startLifetime:
       serializedVersion: 2
       minMaxState: 3
-      scalar: 2.3
-      minScalar: 2
+      scalar: 1.2
+      minScalar: 0.7
       maxCurve:
         serializedVersion: 2
         m_Curve:
