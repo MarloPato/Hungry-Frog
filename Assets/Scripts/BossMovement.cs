@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class BossMovement : MonoBehaviour
 {
@@ -14,11 +15,15 @@ public class BossMovement : MonoBehaviour
     [SerializeField] public bool isAlive = true;
     private Animator animator;
     [SerializeField] public GameObject Elevator;
+    [SerializeField] private GameObject doorToOpenWhenBossIsDead;
+    [SerializeField] private GameObject doorToCloseAtStart;
+    [SerializeField] int levelToLoad;
 
     void Start()
     {
         rigidBody2D = gameObject.GetComponent<Rigidbody2D>();
         animator = gameObject.GetComponent<Animator>();
+        doorToCloseAtStart.SetActive(false);
     }
 
     private void Update()
@@ -90,6 +95,8 @@ public class BossMovement : MonoBehaviour
 
     public void KillMe()
     {
+        doorToOpenWhenBossIsDead.SetActive(false);
+        doorToCloseAtStart.SetActive(true);
         Elevator.SetActive(true);
         isAlive = false;
         gameObject.GetComponent<BoxCollider2D>().enabled = false;
