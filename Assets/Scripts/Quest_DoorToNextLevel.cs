@@ -16,6 +16,8 @@ public class Quest_DoorToNextLevel : MonoBehaviour
                 GameObserver.SaveApplesToMemory(collision.GetComponent<PlayerState>().itemAmount);
                 SceneManager.LoadScene(levelToLoad);
             }
+            
         }
     }
+   
 }
