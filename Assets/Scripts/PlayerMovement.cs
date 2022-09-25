@@ -19,6 +19,7 @@ public class PlayerMovement : MonoBehaviour
     private bool doubleJump = false;
     private Animator animator;
     private bool isMoving;
+    [SerializeField] private AudioSource audioSource;
     [SerializeField] private LayerMask whatIsGround;
 
     void Start()
@@ -37,6 +38,7 @@ public class PlayerMovement : MonoBehaviour
         {
             isJumpPressed = true;
             animator.SetTrigger("doJump");
+            audioSource.Play();
         }
 
         animator.SetBool("isGrounded", isGrounded);
