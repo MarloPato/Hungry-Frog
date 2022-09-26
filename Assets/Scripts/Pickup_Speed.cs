@@ -7,8 +7,8 @@ public class Pickup_Speed : MonoBehaviour
     [SerializeField] private float multiplySpeedBy = 1.5f;
     private PlayerMovement playerMovement;
     private bool isUsingMovementSpeed = false;
-    private float timer = 0f;
-    [SerializeField] private float timeBeforeReset;
+    public float timer = 0f;
+    [SerializeField] public float timeBeforeReset;
     [SerializeField] private AudioSource audioSource;
     [SerializeField] private AudioClip audioClip;
     [SerializeField] private SpriteRenderer spriteRenderer;

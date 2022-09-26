@@ -3289,7 +3289,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioSource: {fileID: 918858301}
-  pickUpClip: {fileID: 8300000, guid: 93a31d4b661610e48831955db5223597, type: 3}
+  pickUpClip: {fileID: 8300000, guid: 5c88297c784364648b59bd8ff2864e23, type: 3}
 --- !u!212 &918858298
 SpriteRenderer:
   m_ObjectHideFlags: 0

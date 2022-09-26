@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Threading;
 using UnityEngine;
 
 public class PlayerState : MonoBehaviour
@@ -9,6 +10,8 @@ public class PlayerState : MonoBehaviour
     private GameObject respawnPosition;
     [SerializeField] private GameObject startPosition;
     [SerializeField] private bool useStartPosition = true;
+    private PlayerMovement playerMovement;
+    
     public int itemAmount = 0;
 
 
@@ -40,6 +43,7 @@ public class PlayerState : MonoBehaviour
     {
         healthPoints = initialHealthPoints;
         gameObject.transform.position = respawnPosition.transform.position;
+        
     }
 
     public void ItemPickup()

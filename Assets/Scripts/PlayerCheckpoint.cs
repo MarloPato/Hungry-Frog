@@ -25,7 +25,7 @@ public class PlayerCheckpoint : MonoBehaviour
             animator.SetTrigger("Captured");
             audioSource.enabled = true;
             audioSource.PlayOneShot(pickUpClip);
-            audioSource = null;
+            gameObject.GetComponentInParent<BoxCollider2D>().enabled = false;
 
 
         }

@@ -7843,6 +7843,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Checkpoint
       objectReference: {fileID: 0}
+    - target: {fileID: 7657085049795037336, guid: 336850945b34a44f1b5d15f3addfbe42, type: 3}
+      propertyPath: pickUpClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 5c88297c784364648b59bd8ff2864e23, type: 3}
     - target: {fileID: 7657085049795037338, guid: 336850945b34a44f1b5d15f3addfbe42, type: 3}
       propertyPath: m_RootOrder
       value: 14

@@ -43,6 +43,7 @@ public class PlayerMovement : MonoBehaviour
 
         animator.SetBool("isGrounded", isGrounded);
         animator.SetFloat("Speed", Mathf.Abs(moveDirection));
+        
     }
 
     private void FixedUpdate()
